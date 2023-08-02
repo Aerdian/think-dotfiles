@@ -1,6 +1,6 @@
 ---
 title: think-dotfiles
-description: repository to manage and share personal dotfiles
+description: repository to manage and share personal dotfiles for ThinkPad
 author: Ian Cox
 created:  2023 Aug 2
 modified: 2023 Aug 2
