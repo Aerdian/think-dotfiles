@@ -1,0 +1,73 @@
+* {
+  font-family: Iosevka, feather;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f6bb33;
+}
+
+/* Set background colour of main waybar window */
+window#waybar {
+  background: #252b35;
+}
+
+/* Set background colour of tooltips */
+tooltip {
+  background: #252b35;
+}
+
+/* Set workspace text colour and padding */
+#workspaces button {
+  color: #ffae34;
+  border-bottom: 2px solid #252b35;
+  border-radius: 0px;
+  margin-bottom: 2px;
+}
+
+/* Sets active workspace to have a solid line on the bottom */
+#workspaces button.active {
+  border-bottom: 2px solid #f6bb33;
+  border-radius: 0px;
+  margin-bottom: 2px;
+}
+
+/* More workspace stuff for highlighting on hover */
+#workspaces button.focused {
+  color: #f6bb33;
+}
+
+#workspaces button.urgent {
+  color: #f6bb33;
+}
+
+#workspaces button:hover {
+  background: #252b35;
+  color: #252b35;
+}
+
+/* sets background, padding, margins, and borders for (all) modules */
+#custom-pacman,
+#workspaces,
+#clock,
+#temperature,
+#cpu,
+#memory,
+#pulseaudio,
+#tray
+{
+  background: #252b35;
+  padding: 0px 6px;
+  margin: 0px 0px;
+  border: 0px;
+}
+
+#battery {
+  padding: 0px 20px 0px 0px;
+}
+
+#idle_inhibitor {
+  padding: 0px 10px 0px 0px;
+}
+
+#backlight {
+  padding: 0px 9px 0px 0px;
+}
